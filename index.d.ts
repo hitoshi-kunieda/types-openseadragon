@@ -736,7 +736,7 @@ declare namespace OpenSeadragon {
     constructor(options: OverlayOptions);
     adjust(position: Point, size: Point): void;
     destroy(): void;
-    drawHTML(container: HTMLElement): void;
+    drawHTML(container: HTMLElement, viewport: Viewport): void;
     getBounds(viewport: Viewport): Rect;
     update(location: Point | Rect, placement: Placement): void;
   }
